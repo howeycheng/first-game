@@ -11,7 +11,8 @@ config_version=5
 [application]
 
 config/name="First Game"
-config/features=PackedStringArray("4.6", "Forward Plus")
+run/main_scene="uid://5fneicj2w002"
+config/features=PackedStringArray("4.6", "C#", "Forward Plus")
 config/icon="res://icon.svg"
 
 [dotnet]
@@ -24,4 +25,5 @@ project/assembly_name="First Game"
 
 [rendering]
 
+textures/canvas_textures/default_texture_filter=0
 rendering_device/driver.windows="d3d12"
